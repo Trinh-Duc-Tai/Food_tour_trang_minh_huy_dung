@@ -136,7 +136,7 @@ function randomquotes() {
     let a = Math.floor((Math.random() * quotes1.length));
     quoteshtml.innerHTML = `${quotes1[a].quotes}`;
     auhtml.innerHTML = `- - ${quotes1[a].au} - -`;
-    setTimeout(randomquotes, 1000*30);
+    setTimeout(randomquotes, 1000*3);
 }
 randomquotes();
 let getplanmeal = document.getElementById("get-plan");
