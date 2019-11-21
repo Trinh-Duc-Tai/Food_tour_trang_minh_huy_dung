@@ -245,7 +245,7 @@ const thieucan = [
         toi: [
             {
                 menu: ["Cá ngừ bí tết", "Mì ống", "Rau xanh", "1 ly sữa tươi"],
-                image: ['cangubittet.jpg', 'miong.jpg', "rauxanh.jpg", 'suatuoi1coc.jpg'], calo: '674'
+                image: ['cangubittet.jpg', 'myong.jpg', "rauxanh.jpg", 'suatuoi1coc.jpg'], calo: '674'
             },
             {
                 menu: ["beefsteak", "cải chíp luộc", "kiwi", "khoai tây nghiền"],
