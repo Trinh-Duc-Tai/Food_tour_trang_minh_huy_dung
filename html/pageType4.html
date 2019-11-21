@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../css/page2.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/headeralo.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,14 +17,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Page2</title>
+    <title>Page4</title>
 
 </head>
 
 <body>
         <div class="contaner-fluid">
                 <div class="contaner-fluid group-icons">
-                    <div class="container">
+                    <div class="container"data-aos="fade-right" data-aos-duration="2000">
                         <i class="fa fa-facebook icon-groups"></i>
                         <i class="fa fa-twitter icon-groups"></i>
                         <i class="fa fa-instagram icon-groups"></i>
@@ -33,13 +34,13 @@
                     <div class="container-fluid menu-navigation">
                         <div class="container logo_container">
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-sm-3"data-aos="fade-right" data-aos-duration="2000">
                                         <button id="logoo" onclick="logoo()">
                                                 <h1 id="logo">Foodtour</h1>
                                         </button>
                                 </div>
                                 <div class="col-sm-9">
-                                    <div class="menu-selection">
+                                    <div class="menu-selection"data-aos="fade-left" data-aos-duration="2000">
                                         <div class="selection">
                                                 <a >
                                                         <span id = 'searchBMI'class="autocomplete" style="width:300px;">
@@ -74,13 +75,13 @@
         <button id="get-plan">GET PLAN</button>
 
         <div class="quotesau">
-            <div class="topcontent">
+            <div class="topcontent"data-aos="zoom-up" data-aos-duration="2000">
                 <span id="quotes"></span>
                 <br>
                 <span id="au"></span>
             </div>
         </div>
-        <div class="bottom">
+        <div class="bottom"data-aos="fade-up" data-aos-duration="2000">
 
             <div class="ex1 ex">
                 <p class="banner">EXERCISES FOR WOMEN</p>
@@ -147,6 +148,10 @@
         </div>
     <script src="../js/page2Type4.js"></script>
     <script src="../js/header.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

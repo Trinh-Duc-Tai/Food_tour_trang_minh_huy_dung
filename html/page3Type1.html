@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Devonshire|Ma+Shan+Zheng|Zhi+Mang+Xing&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Type 1</title>
@@ -23,31 +24,33 @@
 <body>
     <div class="contaner-fluid">
         <div class="contaner-fluid group-icons">
-            <div class="container">
+            <div class="container" data-aos="fade-right" data-aos-duration="2000">
                 <i class="fa fa-facebook icon-groups"></i>
                 <i class="fa fa-twitter icon-groups"></i>
                 <i class="fa fa-instagram icon-groups"></i>
             </div>
+            <!-- het container  -->
         </div>
+        <!-- het contaner-fluid group-icons  -->
         <div class="contaner-fluid">
             <div class="container-fluid menu-navigation">
                 <div class="container logo_container">
                     <div class="row">
-                        <div class="col-sm-3">
-                                <button id="logoo" onclick="logoo()">
-                                        <h1 id="logo">Foodtour</h1>
-                                </button>
+                        <div class="col-sm-3"data-aos="fade-right" data-aos-duration="2000">
+                            <button id="logoo" onclick="logoo()">
+                                    <h1 id="logo">Foodtour</h1>
+                            </button>
                         </div>
                         <div class="col-sm-9">
-                            <div class="menu-selection">
+                            <div class="menu-selection"data-aos="fade-left" data-aos-duration="2000">
                                 <div class="selection">
-                                        <a >
-                                                <span id = 'searchBMI'class="autocomplete" style="width:300px;">
-                                                        <span id ='searchBMI'>
-                                                        <input id="myInput" type="text" name="Enter BMI" placeholder="Enter BMI">
-                                                        <button id = "search">Search</button>
-                                                    </span></li>
-                                            </a>
+                                    <a >
+                                        <span id = 'searchBMI'class="autocomplete" style="width:300px;">
+                                                    <span id ='searchBMI'>
+                                                    <input id="myInput" type="text" name="Enter BMI" placeholder="Enter BMI">
+                                                    <button id = "search">Search</button>
+                                        </span></li>
+                                    </a>
                                     <a href=" ">
                                         <span>Our story</span>
                                     </a>
@@ -61,34 +64,42 @@
                                         <span onclick="contact()">Contact & Reservations</span>
                                     </a>
                                 </div>
+                                <!-- het selection  -->
                             </div>
+                            <!-- het menu selection  -->
                         </div>
+                        <!-- het col-sm-9  -->
                     </div>
+                    <!-- het row  -->
                 </div>
+                <!-- het container logo_container  -->
             </div>
+            <!-- het container-fluid menu-navigation  -->
         </div>
+        <!-- het contaner-fluid  -->
     </div>
+    <!-- het contaner-fluid  -->
 
 
 
     <div class="bg-img"></div>
     <div class="group-days">
-        <div class='t' id="0">FIRST DAY</div>
-        <div class='t' id="1">SECOND DAY</div>
-        <div class='t' id="2">THIRD DAY</div>
-        <div class='t' id="3">FOURTH DAY</div>
+        <div class='t' id="0" data-aos="flip-up" data-aos-duration="2000">FIRST DAY</div>
+        <div class='t' id="1" data-aos="flip-up" data-aos-duration="2000" >SECOND DAY</div>
+        <div class='t' id="2" data-aos="flip-up" data-aos-duration="2000">THIRD DAY</div>
+        <div class='t' id="3" data-aos="flip-up" data-aos-duration="2000">FOURTH DAY</div>
     </div>
     <div class="group-days">
-        <div class='t' id="4">FIFTH DAY</div>
-        <div class='t' id="5">SIXTH DAY</div>
-        <div class='t' id="6">SEVENTH DAY</div>
+        <div class='t' id="4" data-aos="flip-up" data-aos-duration="2000" >FIFTH DAY</div>
+        <div class='t' id="5" data-aos="flip-up" data-aos-duration="2000">SIXTH DAY</div>
+        <div class='t' id="6" data-aos="flip-up" data-aos-duration="2000">SEVENTH DAY</div>
     </div>
-    <div id="menu">
+    <div id="menu" data-aos="fade-up" data-aos-duration="2000">
 
 
     </div>
 
-    <div class="footer contaner-fluid">
+    <div class="footer contaner-fluid" data-aos="zoom-out" data-aos-duration="2000">
 
 
         <div class="inner_footer contaner-fluid">
@@ -130,6 +141,10 @@
     </script>
     <script src="../js/page3Type1.js"></script>
     <script src="../js/header.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
