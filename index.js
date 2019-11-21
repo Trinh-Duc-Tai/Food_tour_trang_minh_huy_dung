@@ -73,7 +73,7 @@ function calculateBMI() {
             console.log(a);
         }else if(result>18.5 && result< 22.9 ){
             document.location.href = "html/pageType2.html";
-        }else if(result>23&& result < 24.9){
+        }else if(result>22.9&& result < 24.9){
             document.location.href = "html/pageType3.html";
         }else if(result > 25 && result < 29.9){
             document.location.href = "html/pageType4.html";

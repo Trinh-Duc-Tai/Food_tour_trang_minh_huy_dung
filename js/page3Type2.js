@@ -339,8 +339,8 @@ const normal = [
                 calo: '500'
             },
             {
-                menu: ["nửa bát cơm", "50gram thịt nạc lợn", '100gram thịt cá', '50gram hoa thiên lí', '1 quả chuối'],
-                image: ['cơm.jpg', 'thịt lợn.jpg', 'cá.jpg', 'hoa thiên lí.jpg', 'chuối.jpg'],
+                menu: ["nửa bát cơm", "50gram thịt nạc lợn", '100gram thịt cá', '50gram hoa thiên lý', '1 quả chuối'],
+                image: ['cơm.jpg', 'thịt lợn.jpg', 'cá.jpg', 'hoa thiên lý.jpg', 'chuối.jpg'],
                 calo: '550'
             },
         ],
