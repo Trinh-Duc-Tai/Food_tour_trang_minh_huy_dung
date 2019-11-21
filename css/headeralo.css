@@ -1,0 +1,139 @@
+
+#search {
+    font-family: 'Dancing Script';
+    color: black;
+    border-color: black;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    line-height: normal;
+    cursor: pointer;    
+    user-select: none;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    transition: background-color 150ms ease-in,border-color 150ms ease-in;
+    font-size: 1em;
+    color: inherit;
+    padding: .25em 0.75em .3em;
+    margin: 0 .125rem .2rem;
+}
+/* .abc {
+    max-width: 1495px !important;
+} */
+#logoo {
+    background: none;
+    border: 0px;
+    margin-left: -1%;
+}
+#logo {
+    font-weight: bolder;
+}
+#logo:hover {
+    cursor: pointer;
+}
+
+.header{
+    height: 50px;
+    display: block;
+    background-color: #8B8970;
+}
+.header-2{
+    height: 80px;
+    display: block;
+    background-color: white;
+}
+
+.group-icons{
+    background: #8B8970;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-groups{
+    margin-right: 5px;
+    color: white;
+}
+
+.inner-header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    /* background-color: red; */
+}
+.selection {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.logo_container  h1{
+    color: #770000;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    font-weight: 200px
+}
+.menu-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}   
+
+.menu-selection a{
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: #770000;
+    vertical-align: middle;
+}
+.logo_container  h1 span{
+    font-weight: bold;
+    
+}
+.menu-navigation{
+    background: white;
+}
+
+.navigation{
+    display: flex;
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a :last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color:#770000;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+#header11 {
+    width: 100%;
+}
