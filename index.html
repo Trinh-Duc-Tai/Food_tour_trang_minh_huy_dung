@@ -13,41 +13,42 @@
     <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Devonshire|Ma+Shan+Zheng|Zhi+Mang+Xing&display=swap"
         rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="contaner-fluid">
-        <div class="contaner-fluid group-icons">
-            <div class="container abc">
+    <div class="contaner-fluid" >
+        <div class="contaner-fluid group-icons" >
+            <div class="container abc" data-aos="fade-right" data-aos-duration="2000" >
                 <i class="fa fa-facebook icon-groups"></i>
                 <i class="fa fa-twitter icon-groups"></i>
                 <i class="fa fa-instagram icon-groups"></i>
             </div>
+            <!-- het container abc  -->
         </div>
+        <!-- het contaner-fluid group-icons  -->
         <div class="contaner-fluid">
             <div class="container-fluid menu-navigation">
                 <div class="container abc logo_container">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-3" data-aos="fade-right" data-aos-duration="2000">
                             <button id="logoo" onclick="logoo()">
                                     <h1 id="logo">Foodtour</h1>
                             </button>
                         </div>
                         <div class="col-sm-9">
-                            
-                                <div class="menu-selection">
-                                        
-
+                                <div class="menu-selection" data-aos="fade-left" data-aos-duration="2000">
                                     <div class="selection">
-                                            <a >
-                                                    <li><span id = 'searchBMI'class="autocomplete" style="width:300px;">
-                                                            <span id ='searchBMI'>
-                                                            <input id="myInput" type="text" name="Enter BMI" placeholder="Enter BMI">
-                                                            <button id = "search">Search</button>
-                                                        </span></li>
-                                                </a>
+                                        <a >
+                                            <li><span id = 'searchBMI'class="autocomplete" style="width:300px;">
+                                                    <span id ='searchBMI'>
+                                                    <input id="myInput" type="text" name="Enter BMI" placeholder="Enter BMI">
+                                                    <button id = "search">Search</button>
+                                                </span>
+                                            </li>
+                                        </a>
                                         <a href="">
                                             <span>Our story</span>
                                         </a>
@@ -61,54 +62,57 @@
                                             <span onclick="contact()">Contact & Reservations</span>
                                         </a>
                                     </div>
-                                    
+                                    <!-- het selection  -->
                                 </div>
+                                <!-- het menu selection  -->
                             
                         </div>
+                        <!-- het col-sm-9  -->
                     </div>
-
-
-
-
+                    <!-- het row  -->
                 </div>
+                <!-- het container abc logo_container  -->
             </div>
+            <!-- het container-fluid menu-navigation  -->
         </div>
-
+        <!-- het contaner fluid  -->
     </div>
+    <!-- het contaner fluid  -->
 
     <div id="wrapper">
-        <div id="container">
+        <div id="container" >
             <div class="omgfoodtour">
                 <!-- <div  id = "boxcomment"></div> -->
-                <div class="omg">OMG!!!</div>
+                <div class="omg"data-aos="fade-up" data-aos-duration="2000">OMG!!!</div>
 
-                <div class="describ">Enter your height and your weight to help you build a suitable eating plans in
+                <div class="describ"data-aos="fade-up" data-aos-duration="2000">Enter your height and your weight to help you build a suitable eating plans in
                     7 days to get better health.</div>
             </div>
-            <div class="enter">
+            <div class="enter"data-aos="fade-up" data-aos-duration="2000">
                 <input id="ip1" type="text" placeholder="Enter your weight(kg)">
                 <input id="ip2" type="text" placeholder="Enter your height(m)">
             </div>
-            <button id="calcu">Calculate</button>
+            <button id="calcu"data-aos="flip-up" data-aos-duration="2000">Calculate</button>
 
         </div>
+        <!-- het container  -->
     </div>
-    <div class="footer">
-        <div class="inner_footer">
-
+    <div class="footer" data-aos="zoom-out" data-aos-duration="2000">
+        <div class="inner_footer" >
             <div class="footer_third">
                 <h1>Need Help?</h1>
                 <a href="">Terms &amp; Conditions</a>
                 <a href="">Privacy Policy</a>
             </div>
-
+            <!-- het footer_ third  -->
             <div class="footer_third">
                 <h1>More</h1>
                 <!-- <a href="">Brouchures</a> -->
                 <a href="">Donate</a>
                 <!-- <a href="">Governance</a>
-                <a href="">Impact Reports</a> -->
+                    <a href="">Impact Reports</a> -->
             </div>
+            <!-- het footer_ third  -->
 
             <div class="footer_third">
                 <h1>Follow Us</h1>
@@ -119,11 +123,15 @@
                 </span>
             </div>
         </div>
+        <!-- het inner footer  -->
     </div>
     <script src="index.js"></script>
     <script src="header.js"></script>
     </div>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
